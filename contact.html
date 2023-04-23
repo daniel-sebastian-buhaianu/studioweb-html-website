@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<title>Contact page</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="dsb99">
+	<meta name="description" content="learning how to build websites using HTML5">
+	<meta name="keywords" content="html5, web pages, website, site">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="blog.html">Blog</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<h1>Contact</h1>
+		<hr>
+	</header>
+	<main>
+		<form name="contact" method="post" action="contact.php">
+			First name:
+			<input type="text" name="first-name">
+			<br>
+
+			Last name:
+			<input type="text" name="last-name">
+			<br>
+
+			Email:
+			<input type="email" name="email">
+			<br>
+
+			[Yes/No Question]?:
+			<input type="radio" name="student" value="yes"> Yes
+			<input type="radio" name="student" value="no"> No
+			<br>
+
+			[Multiple choice question]?:
+			<select name="options">
+				<option value="option1">Option 1</option>
+				<option value="option2">Option 2</option>
+				<option value="option3">Option 3</option>
+			</select>
+			<br>	
+
+			Problem description:
+			<br>
+			<textarea name="contact-issue"></textarea>
+			<br>
+			<input type="submit" name="submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; dsb99.dev</p>
+	</footer>
+</body>
